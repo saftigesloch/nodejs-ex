@@ -1,7 +1,7 @@
 {
   "name": "nodejs-ex",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "Custom Node.js Pkg for OpenShift Project",
   "main": "server.js",
   "dependencies": {
     "chai": "^3.5.0",
@@ -11,7 +11,8 @@
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+    "object-assign":"4.1.0",
+    "qrcode-terminal": "^0.12.0"
   },
   "engine": {
     "node": "*",
@@ -23,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sclorg/nodejs-ex.git"
+    "url": "http://github.com/saftigesloch/nodejs-ex.git"
   },
   "author": "Steve Speicher <sspeiche@gmail.com>",
   "license": "CC-BY-1.0",
